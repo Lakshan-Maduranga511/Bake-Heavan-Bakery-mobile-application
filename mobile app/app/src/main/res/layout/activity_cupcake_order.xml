@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UIPackage.CupcakeOrderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cream"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/price_colour"
+            android:text=" Back"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="BackClick" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="110dp"
+            android:text="Make order"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:fontFamily="@font/gil"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="25dp"
+            android:text="Customize Your Cupcake Delight!"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_marginStart="28dp"
+            android:id="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:text="choose product :" />
+        <Spinner
+            android:id="@+id/SPN_O_ProductName"
+            android:layout_width="350dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginBottom="15dp"
+
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginStart="28dp"
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Quantity:" />
+
+        <EditText
+            android:id="@+id/TXT_O_ProductQuantity"
+            android:layout_width="350dp"
+            android:layout_marginStart="25dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_marginStart="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Pirce:" />
+
+        <EditText
+            android:id="@+id/TXT_O_Price"
+            android:layout_width="350dp"
+            android:layout_marginStart="25dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_marginStart="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Customer Name:" />
+
+        <EditText
+            android:id="@+id/TXT_O_CustomerName"
+            android:layout_width="350dp"
+            android:layout_marginStart="25dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_marginStart="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Mobile Number:" />
+
+        <EditText
+            android:id="@+id/TXT_O_CUSMobileNumber"
+            android:layout_width="350dp"
+            android:layout_marginStart="25dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginBottom="15dp"
+
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/BTN_Order"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_bg"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Place Order" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
