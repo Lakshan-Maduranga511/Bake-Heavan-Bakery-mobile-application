@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UIPackage.ManageProductActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cream"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/price_colour"
+            android:text=" Back"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="BackClick" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/gil"
+            android:text="Delete and Edit products"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Please enter below information to delete and edit product"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_marginStart="28dp"
+            android:id="@+id/textView11"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Product Id:" />
+
+        <EditText
+            android:id="@+id/txt_M_DPID"
+            android:layout_width="350dp"
+           android:layout_marginTop="5dp"
+            android:layout_marginStart="25dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_marginStart="28dp"
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Product name:" />
+
+        <EditText
+            android:id="@+id/txt_M_DPName"
+            android:layout_width="350dp"
+android:layout_marginTop="3dp"
+            android:layout_marginStart="25dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btn_M_DProduct"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_bg"
+
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="Delete Product" />
+
+        <TextView
+            android:layout_marginStart="28dp"
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Pruduct ID:" />
+
+        <EditText
+            android:id="@+id/txt_M_EPID"
+            android:layout_width="350dp"
+            android:layout_marginStart="25dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_marginStart="28dp"
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter New Product Name:" />
+
+        <EditText
+            android:id="@+id/txt_M_EPName"
+            android:layout_width="350dp"
+            android:layout_marginStart="25dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_marginStart="28dp"
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Category:" />
+
+        <Spinner
+            android:id="@+id/spn_M_ECategory"
+            android:layout_width="350dp"
+            android:layout_marginStart="25dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginStart="28dp"
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Price:" />
+
+        <EditText
+            android:id="@+id/txt_M_EPrice"
+            android:layout_width="350dp"
+            android:layout_marginStart="25dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_marginStart="28dp"
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Sensory Word:" />
+
+        <EditText
+            android:id="@+id/txt_M_EDescription"
+            android:layout_width="350dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginStart="25dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_marginStart="28dp"
+            android:id="@+id/textView19"
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Quantity:" />
+
+        <EditText
+            android:id="@+id/txt_M_EQuantity"
+            android:layout_width="350dp"
+            android:layout_marginStart="25dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:layout_marginTop="4dp"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btn_M_EditProduct"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_bg"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="Edit Product" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
